@@ -13,7 +13,7 @@ import Welcome from "./routes/Welcome";
 import Familia from "./routes/Familia";
 import Intro from "./routes/Intro";
 import { RecoilRoot } from "recoil";
-import GenericButton from "./components/buttons/genericButton";
+import GenericButton from "./components/buttons/GenericButton";
 import Servicio from "./routes/Servicio";
 import ServicioExtra from "./routes/ServicioExtra";
 
