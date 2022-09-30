@@ -13,8 +13,8 @@ const ProProfile = () => {
   };
 
   return (
-    <div className="w-screen mx-auto">
-      <div className="w-4/5 flex items-center justify-start mx-auto text-left py-3 ">
+    <div className="w-screen flex flex-col">
+      <div className="w-4/5 flex items-center justify-start mx-auto text-left py-3 md:w-2/5 ">
         <h3 className="text-xs ">Cuidados</h3>
       </div>
       <div className="bg-white shadow-lg rounded-lg border-t-2 mx-auto md:w-2/5 flex justify-center flex-col items-center">

@@ -5,8 +5,8 @@ const UserProfile = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-screen mx-auto relative">
-      <div className="bg-white shadow-lg rounded-lg mt-9 border-t-2">
+    <div className="w-screen flex flex-col">
+      <div className="bg-white shadow-lg rounded-lg mt-9 border-t-2 md:w-2/5 md:mx-auto">
         <div className="w-1/5  h-8 text-left mt-4 ml-4">
           <button
             onClick={() => navigate("/familia")}
