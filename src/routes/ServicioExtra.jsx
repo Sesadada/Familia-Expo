@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { openState } from "../../atoms/modalAtoms";
-import GenericButton from "../components/buttons/genericButton";
+import GenericButton from "../components/buttons/GenericButton";
 import Finaciacion from "../components/cards/Finaciacion";
 import { useRecoilState } from "recoil";
 import { FinanceModal } from "../components/modals/FinanceModal";
