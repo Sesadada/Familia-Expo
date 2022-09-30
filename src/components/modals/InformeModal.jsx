@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ModalButton from "../buttons/modalButton";
+import ModalButton from "../buttons/ModalButton";
 import { useRecoilState } from "recoil";
 import { openState } from "../../../atoms/modalAtoms";
 import GenericButton from "../buttons/GenericButton";
