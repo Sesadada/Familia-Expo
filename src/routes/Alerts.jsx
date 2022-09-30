@@ -1,6 +1,6 @@
 import { useRecoilState } from "recoil";
 import { openAlert, alert } from "../../atoms/notificationAtoms";
-import GenericButton from "../components/buttons/genericButton";
+import GenericButton from "../components/buttons/GenericButton";
 
 const allAlerts = [
   {
