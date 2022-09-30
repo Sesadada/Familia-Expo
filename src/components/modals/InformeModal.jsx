@@ -2,7 +2,7 @@ import { useState } from "react";
 import ModalButton from "../buttons/modalButton";
 import { useRecoilState } from "recoil";
 import { openState } from "../../../atoms/modalAtoms";
-import GenericButton from "../buttons/genericButton";
+import GenericButton from "../buttons/GenericButton";
 const month = "junio";
 
 export const InformeModal = () => {

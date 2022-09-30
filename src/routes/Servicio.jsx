@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import GenericButton from "../components/buttons/genericButton";
+import GenericButton from "../components/buttons/GenericButton";
 const servicios = [
   { serv: "Fisioterapeuta", id: "1", color: "pink" },
   { serv: "Masajista", id: "2", color: "blue" },

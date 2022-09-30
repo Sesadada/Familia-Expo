@@ -1,5 +1,5 @@
 import React from "react";
-import GenericButton from "../buttons/genericButton";
+import GenericButton from "../buttons/GenericButton";
 import { useRecoilState } from "recoil";
 import { openAddPro, openChangePro } from "../../../atoms/modalAtoms";
 

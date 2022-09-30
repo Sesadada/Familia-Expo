@@ -1,5 +1,5 @@
 import { useState } from "react";
-import GenericButton from "../buttons/genericButton";
+import GenericButton from "../buttons/GenericButton";
 import Informe from "./Informe";
 
 const total = [

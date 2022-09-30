@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import GenericButton from "../buttons/genericButton";
+import GenericButton from "../buttons/GenericButton";
 let mock = {
   name: "Carlos",
   lastname: "Linares",

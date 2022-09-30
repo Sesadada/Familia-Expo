@@ -1,6 +1,6 @@
 import { openFinance } from "../../../atoms/modalAtoms";
 import { useRecoilState } from "recoil";
-import GenericButton from "../buttons/genericButton";
+import GenericButton from "../buttons/GenericButton";
 
 export const FinanceModal = () => {
   const [showFinance, setShowFinance] = useRecoilState(openFinance);

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineCheck } from "react-icons/ai";
 import { BiCheckbox } from "react-icons/bi";
 
-import GenericButton from "../buttons/genericButton";
+import GenericButton from "../buttons/GenericButton";
 import { BsArrowDownCircle } from "react-icons/bs";
 
 const tareas = [
