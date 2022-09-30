@@ -11,7 +11,7 @@ import Register from "./routes/Register";
 import User from "./routes/User";
 import Welcome from "./routes/Welcome";
 import Familia from "./routes/Familia";
-import Intro from "./routes/intro";
+import Intro from "./routes/Intro";
 import { RecoilRoot } from "recoil";
 import GenericButton from "./components/buttons/genericButton";
 import Servicio from "./routes/Servicio";
