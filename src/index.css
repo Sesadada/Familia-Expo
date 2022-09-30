@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .desktop {
+    @apply w-screen;
+  }
+}
+@screen md {
+  .desktop {
+    @apply mx-auto w-2/5 items-center;
+  }
+}

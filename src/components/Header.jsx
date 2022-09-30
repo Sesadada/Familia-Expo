@@ -1,0 +1,44 @@
+import { GiHamburgerMenu } from "react-icons/gi";
+import { AiOutlineBell } from "react-icons/ai";
+import { Link } from "react-router-dom";
+
+const Header = () => {
+  return (
+    <div className="flex justify-between border-b-2 items-center w-full">
+      <div className="p-4  cursor-pointer">
+        <Link to="/familia">
+          <img
+            alt="logo"
+            src="/senniors_logo_blue.svg"
+            width={80}
+            height={20}
+          />
+        </Link>
+      </div>
+      <div className="flex p-4 text-blue-300 gap-3 items-center">
+        <Link to="/alerts">
+          <button className="inline-block relative">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 text-blue-400 mt-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+              />
+            </svg>
+            <span className="animate-ping absolute top-1 right-0.5 block h-1 w-1 rounded-full ring-2 ring-red-400 bg-red-600"></span>
+          </button>
+        </Link>
+        <GiHamburgerMenu size={24} />
+      </div>
+    </div>
+  );
+};
+
+export default Header;
