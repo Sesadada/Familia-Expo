@@ -33,7 +33,7 @@ onSubmit={submit}
 */
   return (
     <div className=" desktop w-full h-screen relative bg-blue-100 flex flex-col p-8 items-center justify-center">
-      <h3 className="text-xl text-blue-400 p-8">Register</h3>
+      <h3 className="text-xl text-blue-400 p-8">Registráte</h3>
       <form onSubmit={handleSubmit} className="flex flex-col">
         <input
           onChange={(e) => setName(e.target.value)}
